@@ -80,3 +80,12 @@ body {
     background: black;
     color: white;
 }
+
+.contact{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+    color: white;
+    background: black;
+    padding-bottom: 50px;
+}
