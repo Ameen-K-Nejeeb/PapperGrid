@@ -13,15 +13,17 @@
     padding-top: 10px;
 }
 .main{
-    background:lightgray;
+    background:white;
     padding-bottom: 20px;
 }
 .container{
     display: flex;
+    background: lightgrey;
+    height:500px;
 }
 
 .box{
-    background: lightgreen;
+    background: white;
     width: 934px;
     height: 335px;
     margin-left: 370px;
@@ -54,4 +56,12 @@
     margin: 27px;
     border: solid;
     border-color: grey;
+}
+.sub{
+    width: 20%;
+    height: 45px;
+    margin-left: 30px;
+    background: blue;
+    color: white;
+    font-weight: bold;
 }
