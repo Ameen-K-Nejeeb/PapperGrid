@@ -1,4 +1,4 @@
-/* *{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -6,10 +6,12 @@
     outline: none;
 
 }
-body{
-    font-family: "Inter",sans-serif;
+
+body {
+    font-family: "Inter", sans-serif;
 }
-.top-nav{
+
+.top-nav {
     text-align: center;
     background-color: black;
     color: white;
@@ -17,26 +19,64 @@ body{
     height: 30px;
     padding-top: 10px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     padding: 10px;
-    margin-left: 240px;
+    background-color: black;
 }
-.nav-menu{
+
+.nav-menu {
     padding: 20px;
     margin-left: auto;
-    margin-right: 64%;
+    margin-right: 33%;
     font-size: large;
     width: 40%;
     display: flex;
 }
-.pappergrid{
+
+.pappergrid {
     padding: 15px;
     font-size: x-large;
-    width: 30%;
+    width: 0%;
+    margin-left: 15%;
+    color: white;
 }
-.userCartIcon{
+
+.userCartIcon {
     width: 30%;
     display: flex;
     padding: 12px;
-} */
+}
+
+.img {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 38px;
+    cursor: pointer;
+}
+
+.last-image {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 38px;
+}
+
+.content-about {
+    display: table;
+    margin: 7%;
+}
+.about-button{
+    width: 150px;
+    height: 54px;
+    background: black;
+    color: white;
+}
