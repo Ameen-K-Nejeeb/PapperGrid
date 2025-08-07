@@ -19,7 +19,7 @@
 .container{
     display: flex;
     background: lightgrey;
-    height:500px;
+    height:600px;
 }
 
 .box{
@@ -64,4 +64,21 @@
     background: blue;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+}
+.taskHome{
+    margin-left: 1500px;
+    color: blue;
+}
+.build{
+    color: white;
+    margin-left: 50%;
+    padding-top: 20px;
+}
+.textzz{
+    color: white;
+}
+.footers{
+    background: black;
+    display: flex;height: 110px;
 }
